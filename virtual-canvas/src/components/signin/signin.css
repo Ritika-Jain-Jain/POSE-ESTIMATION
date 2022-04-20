@@ -1,0 +1,75 @@
+.login{
+    width: 400px;
+    background: #fff;
+    /* border: 1px solid #dddfe2; */
+    box-shadow: 0 20px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+    padding: 2rem;
+    align-items: center;
+    text-align: center;
+}
+
+.login > h1{
+    text-align: center;
+    color: grey;
+    padding-bottom: 5%;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+}
+
+.login > img{
+    width: 150px;
+    height: 150px;
+}
+
+.login>a{
+    align-items: left;
+    text-align: left;
+}
+
+.signinfield{
+    border-radius: 8px;
+    border-bottom: 2px solid #dddfe2;
+    outline: none;
+    color: #1d2129;
+    margin: 5%;
+    padding: 0.5rem 0.75rem;
+    width: 82%;
+    font-size: 1rem;
+}
+
+.login > input{
+    border: none;
+    margin: 1px;
+    padding-left: 20px;
+}
+
+.button{
+    background: #1877f2;
+    border: 1px solid #1877f2;
+    color: #fff;
+    font-size: 1.25rem;
+    padding: 2%;
+    margin: 10px;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+}
+
+.button-container{
+    margin-top: 50px;
+}
+
+/* .signinfield{
+    border-radius: 8px;
+    border-bottom: 2px solid #dddfe2;
+    outline: none;
+    color: #1d2129;
+    margin: 3%;
+    margin-left: 50px;
+    padding: 0.5rem 0.75rem;
+    width: 70%;
+    font-size: 1rem;
+    align-items: center;
+    justify-content: center;
+} */

@@ -1,0 +1,9 @@
+opencv-python
+# time
+# os
+# numpy
+mediapipe
+flask
+random
+## to install modules, go to terminal and then enter "pip install -r requirements.txt" and it will automatically 
+## install all the required packages

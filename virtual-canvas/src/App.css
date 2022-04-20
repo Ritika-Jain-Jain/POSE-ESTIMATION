@@ -1,0 +1,157 @@
+/* .App{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: #f0f2f5;
+    font-family: Arial, sans-sarif;
+} */
+
+/* .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+} */
+
+
+
+/* Introduction Page CSS */
+
+.row-intro{
+    justify-content: center;
+    padding-top: 5%;
+}
+
+.brand-name-intro{
+    text-align: center;
+    justify-content: center;
+    margin-top: auto;
+    padding: 20px;
+    font-size: larger;
+}
+
+.p-intro{
+    font-size: 2.0rem;
+    font-family: sans-serif;
+    font-weight: 100;
+    padding: 20px;
+}
+
+.get-started-intro{
+    text-decoration: none;
+    text-align: justify;
+    color: #ffffff;
+    border-radius: 12px;
+    padding: 20px 30px;
+    margin: 20px;
+    background-color: #0080ff;
+}
+
+.sider-section-intro{
+    padding-top: 50%;
+    margin-top: 100px;
+}
+
+.video-intro{
+    margin-left: 50px;
+}
+
+.steps-intro{
+    text-align: center;
+    justify-content: center;
+    padding: 5% 10% 0 10%;
+    font-size: larger;
+}
+
+.description-intro{
+    justify-content: center;
+    align-items: center;
+    padding: 5% 10%;
+}
+
+.heading-intro{
+    font-size: larger;
+    padding: 5% 0%;
+}
+
+.art1-intro{
+    width: 50%;
+    height: fit-content;
+    margin-left: 15%;
+}
+
+.developer-intro{
+    text-align: center;
+    justify-content: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 2%;
+    margin-top: 10%;
+}
+
+.card-parent-intro{
+    margin-bottom: 5%;
+}
+
+.card{
+    width: 20%;
+    padding: 20 20;
+    margin: 20px;
+    margin-bottom: 5%;
+    border: hidden;
+    border-radius: 50px;
+    box-shadow: 0px 12px 18px -6px rgba(189, 195, 199, 1.0);
+}
+
+.card-title{
+    justify-content: center;
+    text-align: center;
+}
+
+.card-text{
+    justify-content: center;
+    text-align: justify;
+}
+
+.tanvi-intro{
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+}
+
+.ritika-intro{
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+}
+
+.priyansh-intro{
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+}
+
+.manav-intro{
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+}
+
+/* Introduction Page CSS */
+
+
+
+.footer{
+    background-color: #d1c4e9;
+    margin: 0px auto;
+    padding: 20px 0px 20px 0px;
+}
+

@@ -19,7 +19,7 @@ mongoose.connect("mongodb://localhost:27017/PoseEstimationDB", {
 
 //user schema to store details
 const userSchema = new mongoose.Schema({
-    name: String,
+    username: String,
     email: String,
     password: String
 })
@@ -48,7 +48,7 @@ app.post("/login", (req,res)=> {
 app.post("/signup", (req,res)=> {
     //res.send("My API signup")
     //console.log(req.body)
-    const { email, password } = req.body
+    const { username, email, password } = req.body
     //DB Store the info
     User.findOne({email: email}, (err, user) => {
         if(user){
@@ -56,6 +56,7 @@ app.post("/signup", (req,res)=> {
         }
         else{
             const user = new  User({
+                username,
                 email,
                 password
             })
@@ -64,7 +65,7 @@ app.post("/signup", (req,res)=> {
                     res.send(err)
                 }
                 else{
-                    res.send( { message: "Successfully Registered "} )
+                    res.send( { message: "Successfully Registered"} )
                 }
             })
         }
